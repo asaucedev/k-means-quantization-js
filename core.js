@@ -198,7 +198,7 @@ var k_selections_element = document.getElementById("k_selections");
 var status_element = document.getElementById("status");
 
 // Fill k selections.
-k_options = [2,3,4,5,6,7,8,9,10,11,12];
+k_options = [2,3,4,5,6,7,8,9,10,11,12,24,32,48,64,96,128,192,255,256];
 default_k = 3;
 for (var i = 0; i < k_options.length; ++i) {
   var k = k_options[i];
